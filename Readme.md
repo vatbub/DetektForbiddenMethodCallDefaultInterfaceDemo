@@ -4,6 +4,6 @@
 - Clone this project
 - Run detekt with `mvn antrun:run@detekt`
 - Detekt will flag the call to `.map` and thus fail the build.
-- Then go into `detekt-config.yml` and remove lines 592 and 593
+- Then go into `detekt-config.yml` and remove lines 39 and 40
 - Run detekt again
 - The build will succeed (which it shouldn't)
