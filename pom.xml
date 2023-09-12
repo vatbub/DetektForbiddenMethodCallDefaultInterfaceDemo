@@ -79,6 +79,8 @@
                         <groupId>io.gitlab.arturbosch.detekt</groupId>
                         <artifactId>detekt-cli</artifactId>
                         <version>1.23.1</version>
+                        <scope>system</scope>
+                        <systemPath>${project.basedir}/detekt-cli-1.23.1-all.jar</systemPath>
                     </dependency>
                 </dependencies>
             </plugin>
